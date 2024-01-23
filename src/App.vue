@@ -6,10 +6,10 @@ const productsWithQuantity = products.map((product) => ({
   ...product,
   quantity: 0
 }))
-function arrayToCSV(data) {
+function arrayToCSV(data: any) {
   const csvRows = []
 
-  for (const item of productsWithQuantity) {
+  for (const item of data) {
     const id = item.id
     const quantity = item.quantity
     const row = `"${id}","${quantity}"`
