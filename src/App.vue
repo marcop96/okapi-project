@@ -9,11 +9,13 @@ const productsWithQuantity = products.map((product) => ({
 }))
 function arrayToCSV(data: any) {
   const csvRows = []
-
+  const headers = Object.keys(data[0]);
+  console.log((headers))
+  csvRows.push(headers.join(','));
   for (const item of data) {
-    const id = item.id
-    const quantity = item.quantity
-    const row = `"${id}","${quantity}"`
+    const SKU = item.id
+    const QTY = item.quantity
+    const row = `"${SKU}","${QTY}"`
     csvRows.push(row)
   }
 
@@ -54,14 +56,14 @@ function buyHandler() {
       <thead>
         <tr class="outline outline-2 outline-black">
           <th>Product</th>
-          <th>ID</th>
+          <th>SKU</th>
           <th>Quantity</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(product) in productsWithQuantity" :key="product.id" class="">
+        <tr v-for="(product) in productsWithQuantity" :key="product.SKU" class="">
           <td>{{ product.title }}</td>
-          <td>{{ product.id }}</td>
+          <td>{{ product.SKU }}</td>
           <td>
           </td>
           <input v-model.number="product.quantity" type="number" placeholder="quantity" class="bg-yellow">
