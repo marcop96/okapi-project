@@ -4,9 +4,7 @@ import products from './data/products.json'
 
 const quantities = ref(products.map(() => 0))
 
-function arrayToCSV(data) {
-  console.log(data)
-
+function arrayToCSV(data: any) {
   const csvRows = []
 
   // Format the data to include only 'id' and 'quantity'
@@ -20,7 +18,7 @@ function arrayToCSV(data) {
   return csvRows.join('\n')
 }
 
-function downloadCSV(data) {
+function downloadCSV(data: any) {
   const blob = new Blob([data], { type: 'text/csv' })
   const url = window.URL.createObjectURL(blob)
   const a = document.createElement('a')
@@ -38,7 +36,7 @@ function buyHandler() {
 
   if (productsToBuy.length > 0) {
     const csvData = arrayToCSV(productsToBuy)
-    // downloadCSV(csvData)
+    downloadCSV(csvData)
   }
   else {
     console.log('No products selected')
