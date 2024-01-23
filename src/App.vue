@@ -13,8 +13,8 @@ function arrayToCSV(data: any) {
   console.log((headers))
   csvRows.push(headers.join(','));
   for (const item of data) {
-    const SKU = item.id
-    const QTY = item.quantity
+    const SKU = item.SKU
+    const QTY = item.QTY
     const row = `"${SKU}","${QTY}"`
     csvRows.push(row)
   }
@@ -36,13 +36,13 @@ function downloadCSV(productsWithQuantity: any) {
 
 function buyHandler() {
   const productsToBuy = productsWithQuantity.filter((product) => product.quantity > 0)
-    .map((product) => ({ id: product.SKU, quantity: product.quantity }));
+    .map((product) => ({ SKU: product.SKU, QTY: product.quantity }));
 
   if (productsToBuy.length > 0) {
     console.log((productsToBuy));
     const csvData = arrayToCSV(productsToBuy);
-    downloadCSV(csvData);
-
+    //downloadCSV(csvData);
+    console.log((`${csvData} table data`))
   } else {
     console.log('No products selected or quantity is 0');
   }
