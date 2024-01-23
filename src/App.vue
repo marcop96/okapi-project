@@ -41,7 +41,7 @@ function buyHandler() {
   if (productsToBuy.length > 0) {
     console.log((productsToBuy));
     const csvData = arrayToCSV(productsToBuy);
-    //downloadCSV(csvData);
+    downloadCSV(csvData);
     console.log((`${csvData} table data`))
   } else {
     console.log('No products selected or quantity is 0');
