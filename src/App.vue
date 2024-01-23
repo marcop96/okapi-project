@@ -9,7 +9,6 @@ const productsWithQuantity = products.map((product) => ({
 function arrayToCSV(data) {
   const csvRows = []
 
-  // Format the data to include only 'id' and 'quantity'
   for (const item of productsWithQuantity) {
     const id = item.id
     const quantity = item.quantity
@@ -35,9 +34,9 @@ function downloadCSV(productsWithQuantity: any) {
 function buyHandler() {
   const productsToBuy = productsWithQuantity.filter((product) => product.quantity > 0)
     .map((product) => ({ id: product.id, quantity: product.quantity }));
-  let newProducts = productsToBuy.map((product) => ({ id: product.id, quantity: product.quantity }))
-  console.log((newProducts))
+
   if (productsToBuy.length > 0) {
+    console.log((productsToBuy));
     const csvData = arrayToCSV(productsToBuy);
     downloadCSV(csvData);
 
