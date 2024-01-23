@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import products from './data/products.json'
-
+import type { Product } from './types/Product';
 const date = Date.now()
 const productsWithQuantity = products.map((product) => ({
   ...product,
@@ -21,7 +21,10 @@ function arrayToCSV(data: any) {
 
   return csvRows.join('\n')
 }
-
+function updateQuantity(product: Product, newQuantity: number) {
+  product.quantity = newQuantity
+  console.log((product.quantity))
+}
 function downloadCSV(productsWithQuantity: any) {
   const blob = new Blob([productsWithQuantity], { type: 'text/csv' })
   const url = window.URL.createObjectURL(blob)
@@ -61,13 +64,14 @@ function buyHandler() {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(product) in productsWithQuantity" :key="product.SKU" class="">
+        <tr v-for="(product) in   productsWithQuantity  " :key="product.SKU" class="">
           <td :class="{ 'bg-green': product.quantity > 0, '': product.quantity <= 0 }">{{ product.title }}</td>
           <td>{{ product.SKU }}</td>
           <td>
+            <input v-model.number="product.quantity"
+              @input='event => event.target && updateQuantity(product, (parseInt((event.target as HTMLInputElement).value)))'
+              type="number" class="text-center" :class="product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
           </td>
-          <input v-model.number="product.quantity" type="number" placeholder="quantity"
-            :class="product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
         </tr>
       </tbody>
     </table>
