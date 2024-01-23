@@ -23,7 +23,8 @@ function arrayToCSV(data: any) {
 }
 function updateQuantity(product: Product, newQuantity: number) {
   product.quantity = newQuantity
-  console.log((product.quantity))
+  console.log((`${product.SKU} quantity updated to ${newQuantity}`))
+  console.log((product))
 }
 function downloadCSV(productsWithQuantity: any) {
   const blob = new Blob([productsWithQuantity], { type: 'text/csv' })
@@ -53,19 +54,19 @@ function buyHandler() {
 </script>
 
 <template>
-  <div class="flex">
-    <table class="table-auto outline outline-2 outline-black">
+  <div class="flex justify-center">
+    <table class="table-auto outline outline-2 outline-black ">
       <thead>
         <tr class="outline outline-2 outline-black">
           <th>Product</th>
-          <th>SKU</th>
           <th>Quantity</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(product) in   productsWithQuantity  " :key="product.SKU" class="">
-          <td :class="{ 'bg-green': product.quantity > 0, '': product.quantity <= 0 }">{{ product.title }}</td>
-          <td>{{ product.SKU }}</td>
+          <td class='w-600px' :class="{ 'bg-green': product.quantity > 0, '': product.quantity <= 0 }">{{ product.title
+          }}
+          </td>
           <td>
             <input v-model.number="product.quantity"
               @input='event => event.target && updateQuantity(product, (parseInt((event.target as HTMLInputElement).value)))'
@@ -75,7 +76,7 @@ function buyHandler() {
       </tbody>
     </table>
     <button
-      class="bg-blue-500 h-30 mx-auto fixed top-50 left-180 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      class="bg-blue-500 h-30 mx-auto fixed top-50% right-60 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       @click="buyHandler">
       Buy Now
     </button>
