@@ -42,12 +42,11 @@ function buyHandler() {
     .map((product) => ({ SKU: product.SKU, QTY: product.quantity }));
 
   if (productsToBuy.length > 0) {
-    console.log((productsToBuy));
     const csvData = arrayToCSV(productsToBuy);
-    downloadCSV(csvData);
+    // downloadCSV(csvData);
     console.log((`${csvData} table data`))
   } else {
-    console.log('No products selected or quantity is 0');
+    alert('No products selected or quantity is 0');
   }
 }
 
