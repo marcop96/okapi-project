@@ -2,6 +2,7 @@
 
 import products from './data/products.json'
 
+const date = Date.now()
 const productsWithQuantity = products.map((product) => ({
   ...product,
   quantity: 0
@@ -25,7 +26,7 @@ function downloadCSV(productsWithQuantity: any) {
   const a = document.createElement('a')
   a.setAttribute('hidden', '')
   a.setAttribute('href', url)
-  a.setAttribute('download', 'purchase.csv')
+  a.setAttribute('download', `OKAPI-${date}.csv`)
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
@@ -33,7 +34,7 @@ function downloadCSV(productsWithQuantity: any) {
 
 function buyHandler() {
   const productsToBuy = productsWithQuantity.filter((product) => product.quantity > 0)
-    .map((product) => ({ id: product.id, quantity: product.quantity }));
+    .map((product) => ({ id: product.SKU, quantity: product.quantity }));
 
   if (productsToBuy.length > 0) {
     console.log((productsToBuy));
