@@ -62,12 +62,12 @@ function buyHandler() {
       </thead>
       <tbody>
         <tr v-for="(product) in productsWithQuantity" :key="product.SKU" class="">
-          <td>{{ product.title }}</td>
+          <td :class="{ 'bg-green': product.quantity > 0, '': product.quantity <= 0 }">{{ product.title }}</td>
           <td>{{ product.SKU }}</td>
           <td>
           </td>
-          <input v-model.number="product.quantity" type="number" placeholder="quantity" class="bg-yellow">
-
+          <input v-model.number="product.quantity" type="number" placeholder="quantity"
+            :class="product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
         </tr>
       </tbody>
     </table>
