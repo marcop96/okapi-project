@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "1101216",
+    "title": "OKAPI Hagebutten",
+    "weight": "1.250g"
+  },
+  {
+    "id": "1101019",
+    "title": "OKAPI Kieselgur Plus",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101001",
+    "title": "OKAPI Pränat Plus Typ Z & K",
+    "weight": "1.250g"
+  },
+  {
+    "id": "1101070",
+    "title": "OKAPI Relax",
+    "weight": "800g"
+  },
+  {
+    "id": "1101236",
+    "title": "OKAPI Vierjahreszeitenfutter Sommerkräuter - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101237",
+    "title": "OKAPI Vierjahreszeitenfutter Sommerkräuter- 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101245",
+    "title": "OKAPI Vierjahreszeitenfutter Winterweide - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101246",
+    "title": "OKAPI Vierjahreszeitenfutter Winterweide - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101233",
+    "title": "OKAPI Vierjahreszeitenfutter Weidestart - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101234",
+    "title": "OKAPI Vierjahreszeitenfutter Weidestart - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101242",
+    "title": "OKAPI Vierjahreszeitenfutter Herbsttage - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101243",
+    "title": "OKAPI Vierjahreszeitenfutter Herbsttage - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101239",
+    "title": "OKAPI Vierjahreszeitenfutter Fellwechsel - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101240",
+    "title": "OKAPI Vierjahreszeitenfutter Fellwechsel - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101230",
+    "title": "OKAPI Vierjahreszeitenfutter Frühlingsgefühle - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101231",
+    "title": "OKAPI Vierjahreszeitenfutter Frühlingsgefühle - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101101",
+    "title": "OKAPI Teufelskralle - 800g",
+    "weight": "800g"
+  },
+  {
+    "id": "1101102",
+    "title": "OKAPI Teufelskralle - 1.500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101404",
+    "title": "OKAPI Beruhigungskräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101200",
+    "title": "OKAPI Bitterkräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101209",
+    "title": "OKAPI Bitterkräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101050",
+    "title": "OKAPI Elektrolyt-Konzentrat-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101051",
+    "title": "OKAPI Elektrolyt-Konzentrat-5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101226",
+    "title": "OKAPI EndoProtect-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101227",
+    "title": "OKAPI EndoProtect-4.000g",
+    "weight": "4.000g"
+  },
+  {
+    "id": "1101201",
+    "title": "OKAPI Entschlackungskräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101202",
+    "title": "OKAPI Entschlackungskräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101210",
+    "title": "OKAPI Entschlackungskräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101224",
+    "title": "OKAPI Ganze Flohsamen-1.500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101225",
+    "title": "OKAPI Ganze Flohsamen-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101222",
+    "title": "OKAPI HeparKPU forte-600g",
+    "weight": "600g"
+  },
+  {
+    "id": "1101223",
+    "title": "OKAPI HeparKPU forte-1.800g",
+    "weight": "1.800g"
+  },
+  {
+    "id": "1101197",
+    "title": "OKAPI Hustenkräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101198",
+    "title": "OKAPI Hustenkräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101208",
+    "title": "OKAPI Hustenkräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101213",
+    "title": "OKAPI Imuno Kräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101214",
+    "title": "OKAPI Imuno Kräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101215",
+    "title": "OKAPI Imuno Kräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101195",
+    "title": "OKAPI Kräuterweide-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101196",
+    "title": "OKAPI Kräuterweide-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101207",
+    "title": "OKAPI Kräuterweide-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101130",
+    "title": "OKAPI Lax Flohsamenschalen-1.500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101131",
+    "title": "OKAPI Lax Flohsamenschalen-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101135",
+    "title": "OKAPI L-Carnitin Plus-250g",
+    "weight": "250g"
+  },
+  {
+    "id": "1101136",
+    "title": "OKAPI L-Carnitin Plus-600g",
+    "weight": "600g"
+  },
+  {
+    "id": "1101203",
+    "title": "OKAPI Leberpflege-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101204",
+    "title": "OKAPI Leberpflege-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101038",
+    "title": "OKAPI Lymeth-800g",
+    "weight": "800g"
+  },
+  {
+    "id": "1101219",
+    "title": "OKAPI Lymeth-2.000g",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101228",
+    "title": "OKAPI PankrEMS forte-600g",
+    "weight": "600g"
+  },
+  {
+    "id": "1101229",
+    "title": "OKAPI PankrEMS forte-1.800g",
+    "weight": "1.800g"
+  },
+  {
+    "id": "1101067",
+    "title": "OKAPI Prodic-1.200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101066",
+    "title": "OKAPI Prodic-4.500g",
+    "weight": "4.500g"
+  },
+  {
+    "id": "1101049",
+    "title": "OKAPI Seealgenmehl-2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101057",
+    "title": "OKAPI Sekretosan-800g",
+    "weight": "800g"
+  },
+  {
+    "id": "1101058",
+    "title": "OKAPI Sekretosan-2.000g",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101165",
+    "title": "OKAPI Spirulina-1.500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101166",
+    "title": "OKAPI Spirulina-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101220",
+    "title": "OKAPI Süßholzextrakt-250g",
+    "weight": "250g"
+  },
+  {
+    "id": "1101221",
+    "title": "OKAPI Süßholzextrakt-600g",
+    "weight": "600g"
+  },
+  {
+    "id": "1101014",
+    "title": "OKAPI Synofit - 150g",
+    "weight": "150g"
+  },
+  {
+    "id": "1101015",
+    "title": "OKAPI Synofit - 350g",
+    "weight": "350g"
+  },
+  {
+    "id": "1101069",
+    "title": "OKAPI Topinambur - 2.000g",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101072",
+    "title": "OKAPI Topinambur - 4.000g",
+    "weight": "4.000g"
+  },
+  {
+    "id": "1101217",
+    "title": "OKAPI Wildsamen - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101218",
+    "title": "OKAPI Wildsamen - 1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101248",
+    "title": "OKAPI Zinkchelat Plus - 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101249",
+    "title": "OKAPI Zinkchelat Plus - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101125",
+    "title": "OKAPI Junior Mineral G - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101126",
+    "title": "OKAPI Junior Mineral G - 25.000g",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101150",
+    "title": "OKAPI Mineralkonzentrat G (S) - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101155",
+    "title": "OKAPI Mineralkonzentrat P - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101561",
+    "title": "OKAPI Senior Mineral G - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101190",
+    "title": "OKAPI Weidemineral G (S) - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101326",
+    "title": "OKAPI HoofCool forte - 1.400g",
+    "weight": "1.400g"
+  },
+  {
+    "id": "1101327",
+    "title": "OKAPI HoofCool forte - 2.800g",
+    "weight": "2.800g"
+  },
+  {
+    "id": "1101329",
+    "title": "OKAPI GasterCare forte - 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101330",
+    "title": "OKAPI GasterCare forte - 1.800g",
+    "weight": "1.800g"
+  },
+  {
+    "id": "1101258",
+    "title": "OKAPI Junior Mineral G - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101337",
+    "title": "OKAPI Haferkekse - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101335",
+    "title": "OKAPI Mineral Pur G - 25.000g",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101334",
+    "title": "OKAPI Mineral Pur Leckschale",
+    "weight": "7kg Leckschale"
+  },
+  {
+    "id": "1101259",
+    "title": "OKAPI Mineral Pur G - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101194",
+    "title": "OKAPI Mineral Pur G - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101260",
+    "title": "OKAPI Mineralkonzentrat G (S) - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101261",
+    "title": "OKAPI Mineralkonzentrat P - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101262",
+    "title": "OKAPI Senior Mineral G - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101263",
+    "title": "OKAPI Weidemineral G (S) - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101336",
+    "title": "OKAPI Weidemineral Leckschale",
+    "weight": "7kg Leckschale"
+  },
+  {
+    "id": "1101344",
+    "title": "OKAPI Esparsette - 15.000g",
+    "weight": "15.000g"
+  },
+  {
+    "id": "1101341",
+    "title": "OKAPI ColoProtect forte - 850g",
+    "weight": "850g"
+  },
+  {
+    "id": "1101342",
+    "title": "OKAPI ColoProtect forte - 2600g",
+    "weight": "2.600g"
+  },
+  {
+    "id": "1101348",
+    "title": "OKAPI Schwefel Plus - 1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101338",
+    "title": "OKAPI Gerstenkekse - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101340",
+    "title": "OKAPI Mineralkekse - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101339",
+    "title": "OKAPI Wiesenkekse - 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101365",
+    "title": "OKAPI Prodic-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101364",
+    "title": "OKAPI Esparsette - 25.000g",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101360",
+    "title": "OKAPI Junior Mineral Leckschale",
+    "weight": "7kg Leckschale"
+  },
+  {
+    "id": "1101358",
+    "title": "OKAPI Darmwohlkräuter - 1000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101359",
+    "title": "OKAPI Darmwohlkräuter - 3000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101357",
+    "title": "OKAPI Darmwohlkräuter - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101366",
+    "title": "OKAPI Kupferchelat Plus - 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101367",
+    "title": "OKAPI Kupferchelat Plus - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101369",
+    "title": "OKAPI Bergkern - 2.000g",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101370",
+    "title": "OKAPI Bergkern - 3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101371",
+    "title": "OKAPI Bergkern - 4.000g",
+    "weight": "4.000g"
+  },
+  {
+    "id": "1101372",
+    "title": "OKAPI Bergkern - 6.000g",
+    "weight": "6.000g"
+  },
+  {
+    "id": "1101376",
+    "title": "OKAPI Bergkern - 8.000g",
+    "weight": "8.000g"
+  },
+  {
+    "id": "1101381",
+    "title": "OKAPI Vierjahreszeitenfutter Sommerkräuter - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101384",
+    "title": "OKAPI Vierjahreszeitenfutter Fellwechsel - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101385",
+    "title": "OKAPI Vierjahreszeitenfutter Herbsttage - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101390",
+    "title": "OKAPI Cranberry Kekse - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101393",
+    "title": "OKAPI Kernige Cracker - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101389",
+    "title": "OKAPI Blaubeer Kekse - 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101392",
+    "title": "OKAPI Chia Clickerlis - 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101391",
+    "title": "OKAPI Leichte Clickerlis - 300g",
+    "weight": "300g"
+  },
+  {
+    "id": "1101386",
+    "title": "OKAPI Vierjahreszeitenfutter Winterweide - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101405",
+    "title": "OKAPI Beruhigungskräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101406",
+    "title": "OKAPI Beruhigungskräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101408",
+    "title": "OKAPI Lapachorinde-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101407",
+    "title": "OKAPI Lapachorinde-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101387",
+    "title": "OKAPI Vierjahreszeitenfutter Frühlingsgefühle - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101427",
+    "title": "OKAPI Knusprige Clickerlis - 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101431",
+    "title": "OKAPI Vermkräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101388",
+    "title": "OKAPI Vierjahreszeitenfutter Weidestart - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101429",
+    "title": "OKAPI Vitalcobs - 15.000g",
+    "weight": "15.000g"
+  },
+  {
+    "id": "1101430",
+    "title": "OKAPI Vitalcobs - 25.000g",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101435",
+    "title": "OKAPI Laub und Rinden - 1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101436",
+    "title": "OKAPI Laub und Rinden - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101437",
+    "title": "OKAPI Laub und Rinden - 5.000g",
+    "weight": "5.000g"
+  },
+  {
+    "id": "1101438",
+    "title": "OKAPI Laub und Rinden - 10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101441",
+    "title": "OKAPI Wilde Beeren - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101439",
+    "title": "OKAPI Wilde Beeren - 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101440",
+    "title": "OKAPI Wilde Beeren - 1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101446",
+    "title": "OKAPI Kernige Cracker - 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101447",
+    "title": "OKAPI Gerstenkekse - 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101448",
+    "title": "OKAPI Haferkekse - 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101449",
+    "title": "OKAPI Wiesenkekse - 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101450",
+    "title": "OKAPI Blaubeer Kekse - 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101451",
+    "title": "OKAPI Cranberry Kekse - 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101452",
+    "title": "OKAPI Mineralkekse - 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101453",
+    "title": "OKAPI Chia Clickerlis - 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101454",
+    "title": "OKAPI Leichte Clickerlis - 120g",
+    "weight": "120g"
+  },
+  {
+    "id": "1101455",
+    "title": "OKAPI Knusprige Clickerlis - 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101461",
+    "title": "OKAPI Tuttifrutti 1.250g",
+    "weight": "1.250g"
+  },
+  {
+    "id": "1101462",
+    "title": "OKAPI Tuttifrutti 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101247",
+    "title": "OKAPI Winterknusper",
+    "weight": "250g"
+  },
+  {
+    "id": "1101432",
+    "title": "OKAPI Vermkräuter-1.000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101433",
+    "title": "OKAPI Vermkräuter-3.000g",
+    "weight": "3.000g"
+  },
+  {
+    "id": "1101199",
+    "title": "OKAPI Bitterkräuter-500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101464",
+    "title": "OKAPI Frühlingsknusper",
+    "weight": "250g"
+  },
+  {
+    "id": "1101238",
+    "title": "OKAPI Sommerknusper",
+    "weight": "160g"
+  },
+  {
+    "id": "1101467",
+    "title": "OKAPI Fix&Fertig Esparsette - 15.000g",
+    "weight": "15.000g"
+  },
+  {
+    "id": "1101468",
+    "title": "OKAPI Fix&Fertig Esparsette - 25.000g",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101244",
+    "title": "OKAPI Herbstknusper",
+    "weight": "250g"
+  },
+  {
+    "id": "1101488",
+    "title": "OKAPI Haferriegel Doppelpack",
+    "weight": "50g"
+  },
+  {
+    "id": "1101484",
+    "title": "OKAPI Haferriegel Großpackung",
+    "weight": "500g"
+  },
+  {
+    "id": "1101487",
+    "title": "OKAPI Gerstenriegel Doppelpack",
+    "weight": "50g"
+  },
+  {
+    "id": "1101485",
+    "title": "OKAPI Gerstenriegel Großpackung",
+    "weight": "500g"
+  },
+  {
+    "id": "1101489",
+    "title": "OKAPI Leinsamenriegel Doppelpack",
+    "weight": "50g"
+  },
+  {
+    "id": "1101486",
+    "title": "OKAPI Leinsamenriegel Großpackung",
+    "weight": "500g"
+  },
+  {
+    "id": "1101473",
+    "title": "OKAPI Wilde-Beeren-Kekse 120g",
+    "weight": "120g"
+  },
+  {
+    "id": "1101472",
+    "title": "OKAPI Wilde-Beeren-Kekse 300g",
+    "weight": "300g"
+  },
+  {
+    "id": "1101477",
+    "title": "OKAPI Hustenkekse 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101476",
+    "title": "OKAPI Hustenkekse 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101479",
+    "title": "OKAPI Bauchwohlkekse 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101478",
+    "title": "OKAPI Bauchwohlkekse 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101481",
+    "title": "OKAPI Detoxkekse 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101480",
+    "title": "OKAPI Detoxkekse 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101475",
+    "title": "OKAPI Junior-Mineral-Kekse 200g",
+    "weight": "200g"
+  },
+  {
+    "id": "1101474",
+    "title": "OKAPI Junior-Mineral-Kekse 500g",
+    "weight": "500g"
+  },
+  {
+    "id": "1101444",
+    "title": "OKAPI Haferriegel Promo",
+    "weight": "120g"
+  },
+  {
+    "id": "1101482",
+    "title": "OKAPI Schwefel Plus - 2.500g",
+    "weight": "2.500g"
+  },
+  {
+    "id": "1101514",
+    "title": "OKAPI Spirulina Pellets-1.500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101515",
+    "title": "OKAPI Mineral Bricks 1000g",
+    "weight": "1.000g"
+  },
+  {
+    "id": "1101516",
+    "title": "OKAPI Mineral Bricks 2000g",
+    "weight": "2.000g"
+  },
+  {
+    "id": "1101522",
+    "title": "OKAPI ColoBalance - 750g",
+    "weight": "750g"
+  },
+  {
+    "id": "1101523",
+    "title": "OKAPI ColoBalance - 1.800g",
+    "weight": "1.800g"
+  },
+  {
+    "id": "1101502",
+    "title": "OKAPI Haferkekse - 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101503",
+    "title": "OKAPI Gerstenkekse - 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101504",
+    "title": "OKAPI Wiesenkekse - 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101505",
+    "title": "OKAPI Mineralkekse - 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101501",
+    "title": "OKAPI Blaubeer Kekse - 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101506",
+    "title": "OKAPI Cranberry Kekse - 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101500",
+    "title": "OKAPI Leichte Clickerlis - 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101508",
+    "title": "OKAPI Kernige Cracker - 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101507",
+    "title": "OKAPI Chia Clickerlis - 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101509",
+    "title": "OKAPI Knusprige Clickerlis - 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101510",
+    "title": "OKAPI Wilde-Beeren-Kekse 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101511",
+    "title": "OKAPI Junior-Mineral-Kekse 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101512",
+    "title": "OKAPI Hustenkekse 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101499",
+    "title": "OKAPI Bauchwohlkekse 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101513",
+    "title": "OKAPI Detoxkekse 1500g",
+    "weight": "1.500g"
+  },
+  {
+    "id": "1101527",
+    "title": "OKAPI Waldweide Kekse - 160g",
+    "weight": "160g"
+  },
+  {
+    "id": "1101528",
+    "title": "OKAPI Waldweide Kekse - 400g",
+    "weight": "400g"
+  },
+  {
+    "id": "1101529",
+    "title": "OKAPI Waldweide Kekse - 1200g",
+    "weight": "1.200g"
+  },
+  {
+    "id": "1101533",
+    "title": "OKAPI Hanf-Clickerlis - 800g",
+    "weight": "800g"
+  },
+  {
+    "id": "1101534",
+    "title": "OKAPI Hanf-Clickerlis - 2400g",
+    "weight": "2.400g"
+  },
+  {
+    "id": "1101557",
+    "title": "OKAPI Heucobs Sugar Light",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101551",
+    "title": "OKAPI AdrenaCush forte - 900g",
+    "weight": "900g"
+  },
+  {
+    "id": "1101552",
+    "title": "OKAPI AdrenaCush forte - 1800g",
+    "weight": "1.800g"
+  },
+  {
+    "id": "1101563",
+    "title": "OKAPI Fix&amp;Fertig Luzerne 15kg",
+    "weight": "15.000g"
+  },
+  {
+    "id": "1101564",
+    "title": "OKAPI Fix&amp;Fertig Luzerne 25kg",
+    "weight": "25.000g"
+  },
+  {
+    "id": "1101594",
+    "title": "OKAPI Ration Balancer-10.000g",
+    "weight": "10.000g"
+  },
+  {
+    "id": "1101595",
+    "title": "OKAPI Ration Balancer-25.000g",
+    "weight": "25.000g"
+  }
+]
