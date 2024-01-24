@@ -49,6 +49,12 @@ function buyHandler() {
     alert('No products selected or quantity is 0')
   }
 }
+function resetHandler() {
+  FormattedProducts.value = products.map(product => ({
+    ...product,
+    quantity: 0,
+  }))
+}
 </script>
 
 <template>
@@ -66,18 +72,24 @@ function buyHandler() {
             {{ product.title
             }}
           </td>
+          <td>{{ product.SKU }}</td>
           <td>
-            <input v-model.number="product.quantity" type="number" class="text-center"
+            <input v-model.number="product.quantity" type="number" class="text-center w-20"
               :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'"
-              @input="$event => $event.target && updateQuantity(product, (parseInt(($event.target as HTMLInputElement).value)))">
+              @input="$event => $event.target && updateQuantity(product, (Number(($event.target as HTMLInputElement).value)))">
           </td>
         </tr>
       </tbody>
     </table>
     <button
-      class="bg-blue-500 h-30 mx-auto fixed top-50% right-60 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      class="bg-blue-500 w-30 h-15 mx-auto fixed top-100px right-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       @click="buyHandler">
       Buy Now
+    </button>
+    <button
+      class="bg-blue-500 w-30 h-15 mx-auto fixed top-200px right-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      @click="resetHandler">
+      Reset
     </button>
   </div>
 </template>
