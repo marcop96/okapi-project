@@ -6,6 +6,6 @@ export interface Product {
 }
 
 export interface ProductToExport {
-  SKU: number
+  sku: number
   quantity?: number
 }

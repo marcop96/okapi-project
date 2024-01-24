@@ -13,9 +13,9 @@ function arrayToCSV(data: any) {
   const headers = Object.keys(data[0])
   csvRows.push(headers.join(','))
   for (const item of data) {
-    const SKU = item.SKU
-    const QTY = item.QTY
-    const row = `"${SKU}","${QTY}"`
+    const sku = item.sku
+    const qty = item.qty
+    const row = `"${sku}","${qty}"`
     csvRows.push(row)
   }
 
@@ -38,7 +38,7 @@ function downloadCSV(FormattedProducts: any) {
 
 function buyHandler() {
   const productsToBuy: ProductToExport[] = FormattedProducts.value.filter((product: Product) => product.quantity && product.quantity > 0)
-    .map((product: Product) => ({ SKU: product.SKU, QTY: product.quantity }))
+    .map((product: Product) => ({ sku: product.SKU, qty: product.quantity }))
 
   if (productsToBuy.length > 0) {
     const csvData = arrayToCSV(productsToBuy)
@@ -58,10 +58,10 @@ function resetHandler() {
 </script>
 
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center ">
     <table class="table-auto border border-2 border-gray ">
       <thead>
-        <tr class=" ">
+        <tr class="bg-[#C5e5ff]">
           <th>Product</th>
           <th>SKU</th>
           <th>Quantity</th>
@@ -69,26 +69,25 @@ function resetHandler() {
       </thead>
       <tbody>
         <tr v-for="(product) in FormattedProducts " :key="product.SKU" class="border border-2 border-gray">
-          <td class="w-600px" :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
+          <td class="w-600px" :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-[#C5E5FF]'">
             {{ product.title
             }}
           </td>
-          <td :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'">{{ product.SKU }}</td>
+          <td :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-[#C5E5FF]'">{{ product.SKU }}</td>
           <td>
             <input v-model.number="product.quantity" type="number" class="text-center w-20"
-              :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'"
+              :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-[#C5E5FF]'"
               @input="$event => $event.target && updateQuantity(product, (Number(($event.target as HTMLInputElement).value)))">
           </td>
         </tr>
       </tbody>
     </table>
-    <button
-      class="bg-blue-500 w-30 h-15 mx-auto fixed top-100px right-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-      @click="buyHandler">
+  </div>
+  <div class="flex justify-center">
+    <button class=" bg-[#FFA62B] hover:bg-[#ff8308] text-white w-30 h-15 my-4 mx-4 font-bold rounded" @click="buyHandler">
       Buy Now
     </button>
-    <button
-      class="bg-blue-500 w-30 h-15 mx-auto fixed top-200px right-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+    <button class=" bg-[#FFA62B] hover:bg-[#ff8308] text-white w-30 h-15 my-4 mx-4 font-bold rounded"
       @click="resetHandler">
       Reset
     </button>
