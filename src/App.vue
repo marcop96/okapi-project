@@ -1,17 +1,17 @@
 <script setup lang="ts">
-
+import { ref } from 'vue'
 import products from './data/products.json'
-import type { Product } from './types/Product';
+import type { Product, ProductToExport } from './types/Product'
+
 const date = Date.now()
-const productsWithQuantity = products.map((product) => ({
+const FormattedProducts = ref<Product[]>(products.map(product => ({
   ...product,
-  quantity: 0
-}))
+  quantity: 0,
+})))
 function arrayToCSV(data: any) {
   const csvRows = []
-  const headers = Object.keys(data[0]);
-  console.log((headers))
-  csvRows.push(headers.join(','));
+  const headers = Object.keys(data[0])
+  csvRows.push(headers.join(','))
   for (const item of data) {
     const SKU = item.SKU
     const QTY = item.QTY
@@ -23,11 +23,9 @@ function arrayToCSV(data: any) {
 }
 function updateQuantity(product: Product, newQuantity: number) {
   product.quantity = newQuantity
-  console.log((`${product.SKU} quantity updated to ${newQuantity}`))
-  console.log((product))
 }
-function downloadCSV(productsWithQuantity: any) {
-  const blob = new Blob([productsWithQuantity], { type: 'text/csv' })
+function downloadCSV(FormattedProducts: any) {
+  const blob = new Blob([FormattedProducts], { type: 'text/csv' })
   const url = window.URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.setAttribute('hidden', '')
@@ -39,38 +37,39 @@ function downloadCSV(productsWithQuantity: any) {
 }
 
 function buyHandler() {
-  const productsToBuy = productsWithQuantity.filter((product) => product.quantity > 0)
-    .map((product) => ({ SKU: product.SKU, QTY: product.quantity }));
+  const productsToBuy: ProductToExport[] = FormattedProducts.value.filter((product: Product) => product.quantity && product.quantity > 0)
+    .map((product: Product) => ({ SKU: product.SKU, QTY: product.quantity }))
 
   if (productsToBuy.length > 0) {
-    const csvData = arrayToCSV(productsToBuy);
-    // downloadCSV(csvData);
-    console.log((`${csvData} table data`))
-  } else {
-    alert('No products selected or quantity is 0');
+    const csvData = arrayToCSV(productsToBuy)
+    downloadCSV(csvData)
+    // console.log((`${csvData} table data`))
+  }
+  else {
+    alert('No products selected or quantity is 0')
   }
 }
-
 </script>
 
 <template>
   <div class="flex justify-center">
-    <table class="table-auto outline outline-2 outline-black ">
+    <table class="table-auto border border-2 border-gray ">
       <thead>
-        <tr class="outline outline-2 outline-black">
+        <tr class=" ">
           <th>Product</th>
           <th>Quantity</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(product) in   productsWithQuantity  " :key="product.SKU" class="">
-          <td class='w-600px' :class="{ 'bg-green': product.quantity > 0, '': product.quantity <= 0 }">{{ product.title
-          }}
+        <tr v-for="(product) in FormattedProducts " :key="product.SKU" class="border border-2 border-gray">
+          <td class="w-600px" :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
+            {{ product.title
+            }}
           </td>
           <td>
-            <input v-model.number="product.quantity"
-              @input='event => event.target && updateQuantity(product, (parseInt((event.target as HTMLInputElement).value)))'
-              type="number" class="text-center" :class="product.quantity > 0 ? 'bg-green' : 'bg-yellow'">
+            <input v-model.number="product.quantity" type="number" class="text-center"
+              :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'"
+              @input="$event => $event.target && updateQuantity(product, (parseInt(($event.target as HTMLInputElement).value)))">
           </td>
         </tr>
       </tbody>
