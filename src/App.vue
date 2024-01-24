@@ -63,6 +63,7 @@ function resetHandler() {
       <thead>
         <tr class=" ">
           <th>Product</th>
+          <th>SKU</th>
           <th>Quantity</th>
         </tr>
       </thead>
@@ -72,7 +73,7 @@ function resetHandler() {
             {{ product.title
             }}
           </td>
-
+          <td :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'">{{ product.SKU }}</td>
           <td>
             <input v-model.number="product.quantity" type="number" class="text-center w-20"
               :class="product.quantity && product.quantity > 0 ? 'bg-green' : 'bg-yellow'"
